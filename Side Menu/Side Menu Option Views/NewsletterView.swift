@@ -9,10 +9,14 @@ import SwiftUI
 
 struct NewsletterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Text("This company is about")
+            }
+            .navigationTitle("About")
+        }
     }
 }
-
 struct NewsletterView_Previews: PreviewProvider {
     static var previews: some View {
         NewsletterView()

@@ -11,26 +11,27 @@ struct SideMenuView: View {
     @Binding var isShowing: Bool
     
     var body: some View {
-        ZStack {
+        ZStack(alignment: .bottom) {
             LinearGradient(gradient: Gradient(colors: [Color.blue, Color.black]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
-          
-            VStack {
-                SideMenuHeaderView(isShowing: $isShowing)
-                    .foregroundColor(.white)
-                    .frame(height: 100)
-                
-                ForEach(SideMenuViewModel.allCases, id: \.self) { option in
-                    NavigationLink(
-                        destination: (option.destination),
-                        label: {
-                            SideMenuOptionView(viewModel: option)
-                    })
-                
+            ScrollView {
+                VStack {
+                    SideMenuHeaderView(isShowing: $isShowing)
+                        .foregroundColor(.white)
+                        .frame(height: 130)
+                    
+                    ForEach(SideMenuViewModel.allCases, id: \.self) { option in
+                        NavigationLink(
+                            destination: (option.destination),
+                            label: {
+                                SideMenuOptionView(viewModel1: option)
+                            })
+                        
+                    }
+                    Spacer()
+                    
                 }
-                Spacer()
-                
-                }
+            }.padding(.bottom, 50)
             VStack {
                 SideMenuSocialsView()
             }

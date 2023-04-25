@@ -9,25 +9,29 @@ import SwiftUI
 import Foundation
 
 enum SideMenuViewModel: Int, CaseIterable {
-    case settings
+    case notifications
+    case learn
     case about
     case premium
     case newsletter
     case events
     case shop
     case donate
+    case sponsors
     case faq
     case contact
     
     var title: String {
         switch self {
-        case .settings: return "Settings"
+        case .notifications: return "Notifications"
+        case .learn: return "Learn"
         case .about: return "About"
         case .premium: return "Premium"
         case .newsletter: return "Newsletter"
         case .events: return "Events"
         case .shop: return "Shop"
         case .donate: return "Donate"
+        case .sponsors: return "Sponsors"
         case .faq: return "FAQ"
         case .contact: return "Contact"
         }
@@ -35,28 +39,31 @@ enum SideMenuViewModel: Int, CaseIterable {
     
     var imageName: String {
         switch self {
-        case .settings: return "gear"
+        case .notifications: return "bell.fill"
+        case .learn: return "graduationcap.fill"
         case .about: return "scale.3d"
         case .premium: return "star.fill"
         case .newsletter: return "newspaper.fill"
         case .events: return "balloon.2.fill"
         case .shop: return "cart.fill"
         case .donate: return "dollarsign"
+        case .sponsors: return "person.3.sequence.fill"
         case .faq: return "questionmark"
         case .contact: return "envelope.fill"
         }
     }
-    
    
     @ViewBuilder var destination: some View {
         switch self {
-        case .settings: SettingsView()
+        case .notifications: NotificationsView()
+        case .learn: LearnView()
         case .about: AboutView()
         case .premium: PremiumView()
         case .newsletter: NewsletterView()
         case .events: EventsView()
         case .shop: ShopView()
         case .donate: DonateView()
+        case .sponsors: SponsorsView()
         case .faq: FAQView()
         case .contact: ContactView()
         

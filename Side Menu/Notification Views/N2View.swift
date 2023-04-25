@@ -1,20 +1,20 @@
 //
-//  ContactView.swift
+//  N2View.swift
 //  Side Menu
 //
-//  Created by Nicholas Nelson on 4/11/23.
+//  Created by Nicholas Nelson on 4/21/23.
 //
 
 import SwiftUI
 
-struct ContactView: View {
+struct N2View: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContactView_Previews: PreviewProvider {
+struct N2View_Previews: PreviewProvider {
     static var previews: some View {
-        ContactView()
+        N2View()
     }
 }

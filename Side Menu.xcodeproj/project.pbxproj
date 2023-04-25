@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2408DBBD29F371260089B8DB /* N1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408DBBC29F371260089B8DB /* N1View.swift */; };
+		2408DBBF29F371470089B8DB /* N2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408DBBE29F371470089B8DB /* N2View.swift */; };
+		241A229229F0D1AA00FBB2B8 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A229129F0D1AA00FBB2B8 /* LearnView.swift */; };
 		2436505429DFAC4100E3FE7D /* Side_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436505329DFAC4100E3FE7D /* Side_MenuApp.swift */; };
 		2436505629DFAC4100E3FE7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436505529DFAC4100E3FE7D /* ContentView.swift */; };
 		2436505829DFAC4300E3FE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2436505729DFAC4300E3FE7D /* Assets.xcassets */; };
@@ -15,12 +18,15 @@
 		2436506429DFAE6100E3FE7D /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436506329DFAE6100E3FE7D /* SideMenuHeaderView.swift */; };
 		2436506629DFAE8100E3FE7D /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436506529DFAE8100E3FE7D /* SideMenuOptionView.swift */; };
 		2436506829DFAE9800E3FE7D /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436506729DFAE9800E3FE7D /* SideMenuViewModel.swift */; };
+		24B532A329EB4BBE007A284E /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B532A229EB4BBE007A284E /* NotificationsViewModel.swift */; };
+		24B532A529EB7F83007A284E /* SponsorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B532A429EB7F83007A284E /* SponsorsView.swift */; };
 		24B6828729E5A1B000C32C5F /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6828629E5A1B000C32C5F /* EventsView.swift */; };
 		24B6828929E5A1C200C32C5F /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6828829E5A1C200C32C5F /* FAQView.swift */; };
 		24B6828B29E5A1CC00C32C5F /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6828A29E5A1CC00C32C5F /* ContactView.swift */; };
 		24B682A029E6324200C32C5F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6829F29E6324200C32C5F /* SearchView.swift */; };
+		24B746DD29EC72840077C3DF /* NotificationOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B746DC29EC72840077C3DF /* NotificationOptionView.swift */; };
 		24D2C38129E355D7004C4468 /* SideMenuSocialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D2C38029E355D7004C4468 /* SideMenuSocialsView.swift */; };
-		24DA0BC229E4D66800F5F295 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA0BC129E4D66800F5F295 /* SettingsView.swift */; };
+		24DA0BC229E4D66800F5F295 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA0BC129E4D66800F5F295 /* NotificationsView.swift */; };
 		24DA0BC529E4D69C00F5F295 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA0BC429E4D69C00F5F295 /* AboutView.swift */; };
 		24DA0BC729E4D6A700F5F295 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA0BC629E4D6A700F5F295 /* DonateView.swift */; };
 		24DA0BCB29E4D6C300F5F295 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA0BCA29E4D6C300F5F295 /* ShopView.swift */; };
@@ -29,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2408DBBC29F371260089B8DB /* N1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N1View.swift; sourceTree = "<group>"; };
+		2408DBBE29F371470089B8DB /* N2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N2View.swift; sourceTree = "<group>"; };
+		241A229129F0D1AA00FBB2B8 /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
 		2436505029DFAC4100E3FE7D /* Side Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Side Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2436505329DFAC4100E3FE7D /* Side_MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Side_MenuApp.swift; sourceTree = "<group>"; };
 		2436505529DFAC4100E3FE7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,12 +47,15 @@
 		2436506329DFAE6100E3FE7D /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		2436506529DFAE8100E3FE7D /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
 		2436506729DFAE9800E3FE7D /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		24B532A229EB4BBE007A284E /* NotificationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
+		24B532A429EB7F83007A284E /* SponsorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsView.swift; sourceTree = "<group>"; };
 		24B6828629E5A1B000C32C5F /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		24B6828829E5A1C200C32C5F /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		24B6828A29E5A1CC00C32C5F /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		24B6829F29E6324200C32C5F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		24B746DC29EC72840077C3DF /* NotificationOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOptionView.swift; sourceTree = "<group>"; };
 		24D2C38029E355D7004C4468 /* SideMenuSocialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuSocialsView.swift; sourceTree = "<group>"; };
-		24DA0BC129E4D66800F5F295 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		24DA0BC129E4D66800F5F295 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		24DA0BC429E4D69C00F5F295 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		24DA0BC629E4D6A700F5F295 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
 		24DA0BCA29E4D6C300F5F295 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
@@ -85,10 +97,11 @@
 				2436505529DFAC4100E3FE7D /* ContentView.swift */,
 				2436506129DFACA400E3FE7D /* SideMenuView.swift */,
 				2436506329DFAE6100E3FE7D /* SideMenuHeaderView.swift */,
-				2436506529DFAE8100E3FE7D /* SideMenuOptionView.swift */,
 				24D2C38029E355D7004C4468 /* SideMenuSocialsView.swift */,
+				2436506529DFAE8100E3FE7D /* SideMenuOptionView.swift */,
 				2436506729DFAE9800E3FE7D /* SideMenuViewModel.swift */,
-				24DA0BC329E4D67A00F5F295 /* Title Views */,
+				24B746D829EC722F0077C3DF /* Notification Views */,
+				24DA0BC329E4D67A00F5F295 /* Side Menu Option Views */,
 				2436505729DFAC4300E3FE7D /* Assets.xcassets */,
 				2436505929DFAC4300E3FE7D /* Preview Content */,
 			);
@@ -103,21 +116,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		24DA0BC329E4D67A00F5F295 /* Title Views */ = {
+		24B746D829EC722F0077C3DF /* Notification Views */ = {
 			isa = PBXGroup;
 			children = (
-				24DA0BC129E4D66800F5F295 /* SettingsView.swift */,
+				2408DBBC29F371260089B8DB /* N1View.swift */,
+				2408DBBE29F371470089B8DB /* N2View.swift */,
+			);
+			path = "Notification Views";
+			sourceTree = "<group>";
+		};
+		24DA0BC329E4D67A00F5F295 /* Side Menu Option Views */ = {
+			isa = PBXGroup;
+			children = (
 				24B6829F29E6324200C32C5F /* SearchView.swift */,
+				24DA0BC129E4D66800F5F295 /* NotificationsView.swift */,
+				24B746DC29EC72840077C3DF /* NotificationOptionView.swift */,
+				24B532A229EB4BBE007A284E /* NotificationsViewModel.swift */,
+				241A229129F0D1AA00FBB2B8 /* LearnView.swift */,
 				24DA0BC429E4D69C00F5F295 /* AboutView.swift */,
 				24DA0BCC29E4D6D400F5F295 /* PremiumView.swift */,
 				24DA0BCE29E4D6DC00F5F295 /* NewsletterView.swift */,
 				24B6828629E5A1B000C32C5F /* EventsView.swift */,
 				24DA0BCA29E4D6C300F5F295 /* ShopView.swift */,
 				24DA0BC629E4D6A700F5F295 /* DonateView.swift */,
+				24B532A429EB7F83007A284E /* SponsorsView.swift */,
 				24B6828829E5A1C200C32C5F /* FAQView.swift */,
 				24B6828A29E5A1CC00C32C5F /* ContactView.swift */,
 			);
-			path = "Title Views";
+			path = "Side Menu Option Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,11 +217,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2436506229DFACA400E3FE7D /* SideMenuView.swift in Sources */,
+				241A229229F0D1AA00FBB2B8 /* LearnView.swift in Sources */,
+				24B532A529EB7F83007A284E /* SponsorsView.swift in Sources */,
+				2408DBBD29F371260089B8DB /* N1View.swift in Sources */,
 				24B6828729E5A1B000C32C5F /* EventsView.swift in Sources */,
+				2408DBBF29F371470089B8DB /* N2View.swift in Sources */,
 				24DA0BC729E4D6A700F5F295 /* DonateView.swift in Sources */,
 				24B6828B29E5A1CC00C32C5F /* ContactView.swift in Sources */,
 				24DA0BCD29E4D6D400F5F295 /* PremiumView.swift in Sources */,
-				24DA0BC229E4D66800F5F295 /* SettingsView.swift in Sources */,
+				24B746DD29EC72840077C3DF /* NotificationOptionView.swift in Sources */,
+				24B532A329EB4BBE007A284E /* NotificationsViewModel.swift in Sources */,
+				24DA0BC229E4D66800F5F295 /* NotificationsView.swift in Sources */,
 				24B682A029E6324200C32C5F /* SearchView.swift in Sources */,
 				2436506429DFAE6100E3FE7D /* SideMenuHeaderView.swift in Sources */,
 				24DA0BCF29E4D6DC00F5F295 /* NewsletterView.swift in Sources */,

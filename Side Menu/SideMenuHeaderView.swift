@@ -23,8 +23,8 @@ struct SideMenuHeaderView: View {
                     .font(.system(size: 22, weight: .bold))
                     .padding()
             })
-            VStack(alignment: .leading) {
-                Image(systemName: "person")
+            VStack(alignment: .center) {
+                Image(systemName: "apple.logo")
                     .resizable()
                     .scaledToFit()
                     .clipped()
@@ -32,10 +32,10 @@ struct SideMenuHeaderView: View {
                     .clipShape(Circle())
                     .padding(.bottom, 2)
                 
-                Text("John Appleseed")
+                Text("Company Name")
                     .font(.system(size: 24, weight: .semibold))
                 
-                Text("@jappleseed")
+                Text("More text")
                 
                 HStack(spacing: 4) {
                     HStack(spacing: 4) {

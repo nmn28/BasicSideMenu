@@ -18,9 +18,8 @@ struct ContentView: View {
                 }
                 HomeView()
                     .cornerRadius(isShowing ? 20: 10)
-                    .offset(x: isShowing ? 275: 0, y: isShowing ? 44 : 0)
-                    .scaleEffect(isShowing ? 0.8: 1)
-                    
+                    .offset(x: isShowing ? 200: 0, y: isShowing ? 44 : 0)
+                    .scaleEffect(isShowing ? 0.75: 1)
                     .navigationTitle("Home")
                     .toolbar {
                         ToolbarItem(placement: .navigationBarLeading) {
@@ -30,18 +29,21 @@ struct ContentView: View {
                                 }
                             }, label: {
                                 Image(systemName: "list.bullet")
-                                    .foregroundColor(.black)
                             }
                             )}
                         ToolbarItem(placement: .navigationBarTrailing) {
                             NavigationLink {
-                                SettingsView()
+                                NotificationsView()
                             } label: {
                                 Image(systemName: "gear")
                             }
                             }
                         ToolbarItem(placement: .navigationBarTrailing) {
-                            Image(systemName: "magnifyingglass")
+                            NavigationLink {
+                                SearchView()
+                            } label: {
+                                Image(systemName: "magnifyingglass")
+                            }
                         }
                     }
                 }
